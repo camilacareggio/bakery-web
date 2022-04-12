@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #F29191;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.jumbotron{
+    padding: 80px 30px 70px 30px;
+    margin: auto;
+    background-color: #EEC4C4;
+}
+
+a, a:hover, a:active{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.footer{
+    background-color: #D1D9D9;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
