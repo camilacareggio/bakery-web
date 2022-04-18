@@ -30,3 +30,22 @@ a, a:hover, a:active{
     border-bottom: 1px ridge;
     min-height: 400px;
 }
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.carousel{
+    background: #a0c2c0;
+}
+
+.carousel-item{
+    height: 200px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+}
