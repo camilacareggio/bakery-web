@@ -42,9 +42,64 @@
                         <h1>Bakery</h1>
                         <p>We bake everything with love!</p>
                     </div>
+                    <div class="col-12 col-sm-3 align-self-center"> <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-html="true" title="Or call us at <br><strong>+111111111</strong>"
+                        data-bs-placement="bottom" data-bs-target="#orderModal"> Make an order</button>
+                    </div>
                 </div>
             </div>
         </header>
+
+        <div id="orderModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Make an order</h4>
+                        <button type="button" class="close" data-bs-dismiss="modal"> &times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="products" class="col-3">Product</label>
+                                <div class="col-3">
+                                    <select class="form-select" id="products">
+                                        <option>Cake</option>
+                                        <option>Muffins</option>
+                                        <option>Cookies</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="quantity" class="col-md-3">Quantity</label>
+                                <div class="col-6 col-md-5">
+                                    <input type="text" class="form-control" id="quantity" name="quantity" placeholder="Quantity">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="date-time" class="col-md-3">Pick Up</label>
+                                <div class="col-6 col-md-5">
+                                    <input type="text" class="form-control" id="date-time" name="date-time" placeholder="Date">
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <input type="text" class="form-control" id="date-time" name="date-time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="feedback" class="col-md-3 col-form-label">Notes</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="notes" name="notes" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-3 col-md-9">
+                                    <button type="button" class="btn btn-secondary ml-auto">Cancel</button>
+                                    <button type="submit" class="btn btn-dark ml-1">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container">
 
